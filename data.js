@@ -123,10 +123,10 @@ window.OURFLIX = {
   polaroids: [
     { caption: "Main Character Energy ✨", src: "assets/images/riddhi-07.jpg", focus: "50% 22%", back: "Some people light up a room. You light up my entire day." },
     { caption: "His Side of the Story 🎬", src: "assets/images/aditya-02.jpg", focus: "50% 12%", back: "Me, pretending to be calm while thinking about you." },
-    { caption: "Red Looks Good on You ❤️", src: "assets/images/riddhi-12.jpg", focus: "50% 30%", back: "Red is definitely your colour — I can't stop looking." },
+    { caption: "Red Looks sexy on You ❤️", src: "assets/images/riddhi-12.jpg", focus: "50% 30%", back: "Red is definitely your colour — I can't stop looking." },
     { caption: "Dressed Up & Smiling 🕴️", src: "assets/images/aditya-06.jpg", focus: "50% 10%", back: "Nervous, dressed up, and smiling — that's what you do to me." },
     { caption: "That Smile 😊", src: "assets/images/riddhi-05.jpg", focus: "50% 25%", back: "Your laugh is my favourite sound in the whole world." },
-    { caption: "Road Trip Ready 🚗", src: "assets/images/aditya-08.jpg", focus: "50% 35%", back: "Anywhere is the right destination as long as you're next to me." }
+    { caption: "Road Trip with you as passenger princess 🚗", src: "assets/images/aditya-08.jpg", focus: "50% 35%", back: "Anywhere is the right destination as long as you're next to me." }
   ],
 
   /* ---------- Photo galleries (every uploaded photo) ---------- */
@@ -205,7 +205,7 @@ window.OURFLIX = {
   /* ✏️ EDIT 5 — CAST & CREW cards (tap a card to show the "egg" secret line) */
   cast: [
     { role: "Lead Actress & Heart Thief", name: "Mohtarma", award: "🏆 Winner: Best Smile", egg: "Fun fact: wins every argument with just one cute look." },
-    { role: "Lead Actor & Biggest Fan", name: "Adi", award: "🎥 Certified Fan Since 20 Dec 2025", egg: "Fun fact: smiles at his phone every time her name pops up." },
+    { role: "Lead Actor & Biggest Fan", name: "Adi", award: "🎥 Certified Fan Since he heard your name", egg: "Fun fact: smiles at his phone every time her name pops up." },
     { role: "Executive Producer", name: "Our Love ❤️", award: "🍿 Longest Running Series", egg: "Renewed for infinite seasons — no cancellation clause." },
     { role: "Soundtrack & Vibes", name: "Our Songs", award: "🎵 Platinum Certified Romance", egg: "Tap the vinyl player at the bottom of the screen to play our songs." }
   ]
