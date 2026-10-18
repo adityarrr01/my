@@ -13,7 +13,7 @@ window.OURFLIX = {
   hisNick: "Adi",
 
   /* ✏️ Developer credit shown in the footer (bottom of the page) */
-  developer: "Ayush",
+  developer: "Adi and Ayush",
 
   /* The moment the story began: 20 Dec 2025, 5:35 PM (evening), India time */
   start: "2025-12-20T17:35:00+05:30",
@@ -81,7 +81,7 @@ window.OURFLIX = {
       code: "S1:E0", title: "Prologue: The Day We Met", date: "2024-07-26", runtime: "The only time",
       location: "Kargil Vijay Diwas, 2024",
       src: "assets/images/aditya-04.jpg", focus: "50% 12%",
-      note: "We have met in real life only once — on Kargil Vijay Diwas 2024. One day that I still replay in my head, Mohtarma.",
+      note: "We have met in real life only once — on Kargil Vijay Diwas 2024 but one eye contact took my heart. One day that I still replay in my head, Mohtarma.",
       letter: ``,
       secret: "One meeting was all it took. ❤️"
     },
@@ -89,23 +89,23 @@ window.OURFLIX = {
       code: "S1:E1", title: "The Pilot: Day One", milestone: { days: 0 }, runtime: "5:35 PM",
       location: "Where it all began",
       src: "assets/images/riddhi-05.jpg", focus: "50% 25%",
-      note: "20 December 2025, 5:35 in the evening — the exact minute our story officially began. That was the start of my favourite season of life.",
+      note: "20 December 2025, 5:35 in the evening — the exact minute our story OFFICIALLY began. That was the start of my favourite season of life.",
       letter: ``,
       secret: "I would happily replay that evening on repeat. Every. Single. Time. ❤️"
     },
     {
-      code: "S1:E2", title: "100 Days of Us", milestone: { days: 100 }, runtime: "100 days",
+      code: "S1:E2", title: "100-150 Days of Us", milestone: { days: 100 }, runtime: "100 days",
       location: "A hundred little reasons",
       src: "assets/images/aditya-08.jpg", focus: "50% 35%",
       note: "A hundred days of laughs, long chats and you turning ordinary days into special ones. It still feels like the first chapter.",
       letter: ``,
-      secret: "100 days down — and I'd still choose you on day 1,000."
+      secret: "100-150 days down — and I'd still choose you on day 1,0000000000."
     },
     {
-      code: "S1:E3", title: "Half a Year, Whole Heart", milestone: { months: 6 }, runtime: "6 months",
-      location: "Six months strong",
+      code: "S1:E3", title: "More than Half a Year, Whole Heart", milestone: { months: 9 }, runtime: "9 months",
+      location: "nine months strong",
       src: "assets/images/riddhi-10.jpg", focus: "50% 25%",
-      note: "Six months in, and you're still my favourite notification, my calm and my chaos — all in one person.",
+      note: "Nine months in, and you're still my favourite notification, my calm and my chaos — all in one person.",
       letter: ``,
       secret: "My heart still does a tiny jump whenever your name pops up on my screen."
     },
@@ -115,7 +115,7 @@ window.OURFLIX = {
       src: "assets/images/together.jpg", focus: "50% 35%",
       note: "Thank you for being my person, Mohtarma. Here's to Season 2, Season 3, and a hundred more seasons of us.",
       letter: ``,
-      secret: "Happy forever, my love. — Adi"
+      secret: "I LOVE YOU, MY MOMMY. — Adi"
     }
   ],
 
@@ -198,7 +198,8 @@ window.OURFLIX = {
     hint: "Tap the envelope to open it 💌",
     to: "To: Mohtarma ❤️",
     from: "With love, Adi",
-    letter: ``
+    letter: `Dear bacha
+            I hope you liked my little effort to bring a huge smile on your cutest face this showcase is still a very small percentage of love that I do to you, Its a way to be sorry of mine and others actions that hurted you somewhere. Love I am not perfect,I may not be interesting,I may not be facinating but I want to be all those for you and I will keep trying for the same, I want to give you the best of this world,It's like sab kuch kardu aapke liye jo kar sakta hun, we got one life and in this life I want to be yours for lifetime, I have never seen the most perfect person like you, my friends want to flirt with you, and I am the proudest boyfriend ever, your one thought can give me such peace as I have achieved heaven, jitni tareef karu utni kam, In one word, you are INCARNATION of god, I love you my Riddhi, LOVE YOU FOREVER FOR INFINITE TIMES😘💕`
   },
 
   /* ✏️ EDIT 5 — CAST & CREW cards (tap a card to show the "egg" secret line) */
