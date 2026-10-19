@@ -291,7 +291,7 @@
   }
 /* solo journey*/
 function updateSoloTimer() {
-  const closureDate = new Date("2026-10-19T23:59:59"); // Starts counting from today
+  const closureDate = new Date("2026-10-19T10:59:59"); // Starts counting from today
   const now = new Date();
   const diff = Math.max(0, now - closureDate);
   
