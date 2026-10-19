@@ -256,7 +256,7 @@
   }
 
   function updateTimer() {
-    const now = new Date();
+    const now = new Date("2026-10-19T10:59:59");
     const diff = Math.max(0, now - START);
     const days = Math.floor(diff / DAY);
     const hours = Math.floor((diff % DAY) / 36e5);
@@ -289,7 +289,22 @@
     state.nextIn = `${nd} day${nd === 1 ? '' : 's'}`;
     state.days = days;
   }
+/* solo journey*/
+function updateSoloTimer() {
+  const closureDate = new Date("2026-10-19T23:59:59"); // Starts counting from today
+  const now = new Date();
+  const diff = Math.max(0, now - closureDate);
+  
+  const days = Math.floor(diff / DAY);
+  const hours = Math.floor((diff % DAY) / 36e5);
+  const mins = Math.floor((diff % 36e5) / 6e4);
+  const secs = Math.floor((diff % 6e4) / 1e3);
 
+  if ($('#solo-days')) $('#solo-days').textContent = days;
+  if ($('#solo-hours')) $('#solo-hours').textContent = pad(hours);
+  if ($('#solo-mins')) $('#solo-mins').textContent = pad(mins);
+  if ($('#solo-secs')) $('#solo-secs').textContent = pad(secs);
+}
   /* ---------------------------------------------------------------- episodes */
   function epDate(ep) {
     const m = ep.milestone || {};
@@ -602,5 +617,7 @@
   initDashboard();
   initMusic();
   updateTimer();
-  setInterval(updateTimer, 1000);
+  updateSoloTimer();      // Runs the solo timer once immediately
+  setInterval(updateSoloTimer, 1000); // Keeps ONLY the solo timer ticking live every second!
+  
 })();
